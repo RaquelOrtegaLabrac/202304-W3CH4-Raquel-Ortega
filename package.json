@@ -39,5 +39,8 @@
         ]
       }
     }
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
