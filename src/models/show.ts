@@ -11,15 +11,16 @@ export type ShowFeatures = {
 
 export class Show implements ShowFeatures {
   watched: boolean;
+  score: number;
   constructor(
     public id: number,
     public name: string,
     public creator: string,
     public year: number,
     public poster: string,
-    public score: number,
     public emmies: number
   ) {
     this.watched = false;
+    this.score = 0;
   }
 }
