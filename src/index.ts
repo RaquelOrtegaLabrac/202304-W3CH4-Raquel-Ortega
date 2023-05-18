@@ -1,1 +1,3 @@
-console.log("ei");
+import { Header } from './components/header';
+
+new Header('.container');
